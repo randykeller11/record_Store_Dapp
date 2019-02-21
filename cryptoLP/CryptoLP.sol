@@ -3,10 +3,11 @@ import"./ERC720.sol";
 import "./Owbable.sol";
 //@title record token contract
 //@author dub-sizzle
-//@dev this game involves both ERC720 and ERC20 tokens to create a decentralized exchange for a new kind of crypto asset
+//@dev */this game involves both ERC720 and ERC20 tokens to create a decentralized exchange for a new kind of crypto asset
 //the erc721 token is representative of the mint condintion value of a real world vinyl recording. I am defining this variable
 //as the highest sale value for the record using the discogs api and web3.js. A record cannot be repeated once uploaded to the block chain which
-//I believe will create a strong value incentive for the ERC20 token used to barter on the exchange. Players can upvote
+//I believe will create a strong value incentive for the ERC20 token used to barter on the exchange. Extra functionality I plan to add is speculators 
+//market that will reward players with ERC20 if the ERC720 sells for the value they guessed.
 //
 
 //@dev inherits from erc 720 standard and Ownable contract
