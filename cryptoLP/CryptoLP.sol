@@ -2,7 +2,7 @@ pragma solidity ^0.4.25;
 import"./ERC720.sol";
 import "./Owbable.sol";
 //@title record token contract
-//@author dub-sizzle
+//@author randyKeller
 //@dev */this game involves both ERC720 and ERC20 tokens to create a decentralized exchange for a new kind of crypto asset
 //the erc721 token is representative of the mint condintion value of a real world vinyl recording. I am defining this variable
 //as the highest sale value for the record using the discogs api and web3.js. A record cannot be repeated once uploaded to the block chain which
