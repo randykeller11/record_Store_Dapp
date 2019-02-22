@@ -64,5 +64,3 @@ contract record_token is ERC721 {
 
 
 }
-*.sol linguist-language=Solidity
-
