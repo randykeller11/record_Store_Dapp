@@ -1,6 +1,6 @@
 pragma solidity ^0.4.25;
 import"./ERC720.sol";
-import "./Owbable.sol";
+import "./ERC20.sol";
 //@title record token contract
 //@author randyKeller
 //@dev */this game involves both ERC720 and ERC20 tokens to create a decentralized exchange for a new kind of crypto asset
@@ -10,8 +10,8 @@ import "./Owbable.sol";
 //market that will reward players with ERC20 if the ERC720 sells for the value they guessed.
 //
 
-//@dev inherits from erc 720 standard and Ownable contract
-contract record_token is ERC721 {
+//@dev inherits from erc 720 standard and ERC20 contract
+contract record_token is ERC721, ERC20 {
 //@dev structs are used for storing important variables
   mapping (uint => address) getRecordOwner;
   mapping (address => uint) ownerRecordCount;
